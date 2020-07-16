@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Metal+Mania&display=swap');
+
+
+body {
+		background: #00010D;
+		color: white;
+}
+
+a {
+		color: white;
+}
+
+.link-wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+}
+
+.link-wrapper ul {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		font-family: 'Metal Mania', cursive;
+}
+
+.link-wrapper ul li.last {
+		font-family: 'Lato', sans-serif;
+}
+
+.link-wrapper ul img {
+
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1rem;
+}
+
+.list-group-item {
+		background: #00010D;
+		margin-bottom: 1rem;
+
+		border: 2px solid rgba(255, 255, 255, .125) !important;
+}
